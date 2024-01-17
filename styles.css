@@ -51,15 +51,29 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-bottom: 50px;
+  flex-direction: column; /* Adiciona uma direção de coluna para centralizar verticalmente */
 }
 
 .quem-sou-eu p {
   color: #00c05c;
-  max-width: 80%; /* Ajuste conforme necessário para o tamanho desejado */
+  max-width: 80%;
   margin: 0 auto;
   font-size: 28px;
-  line-height: 1.5; /* Ajuste conforme necessário para o espaçamento desejado */
+  line-height: 1.5;
+}
+
+.redes-sociais {
+  margin-top: 20px;
+}
+
+.redes-sociais a {
+  margin: 0 10px;
+  color: #00c05c;
+  font-size: 24px;
+}
+
+.redes-sociais a:hover {
+  color: #00733e;
 }
 
 
@@ -71,6 +85,7 @@ body {
   gap: 20px;
   justify-content: center;
   align-items: center;
+  margin-top: 80px; /* Adiciona 20 pixels de margem superior */
 }
 
 .produto {
@@ -82,10 +97,13 @@ body {
   height: auto;
   object-fit: cover;
   border-radius: 10%;
+  border: 2px solid #00c05c; /* Altera a cor da borda para #00c05c */
+  box-shadow: 0 4px 8px rgba(0, 192, 92, 0.3); /* Aumenta a intensidade da sombra e altera a cor para #00c05c */
 }
 
 .produto p {
   margin: 10px 0;
+  color: #00c05c; /* Altera a cor do nome para #00c05c */
 }
 
 
