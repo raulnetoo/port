@@ -7,7 +7,7 @@ body {
   grid-template-rows: repeat(5, 1fr);
   grid-template-columns: repeat(5, 1fr);
   height: 100vh;
-  background-color: rgb(183, 252, 186);
+  background-color: rgba(183, 252, 186, 0.521);
 }
 
 .top-logo {
@@ -156,7 +156,7 @@ body {
   }
 
   .produto p {
-    font-size: 12px; /* Ajusta o tamanho da fonte para telas pequenas */
+    font-size: 20px; /* Ajusta o tamanho da fonte para telas pequenas */
   }
   
   .top-logo img {
