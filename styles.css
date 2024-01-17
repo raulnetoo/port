@@ -39,10 +39,10 @@ body {
 }
 
 .img-perfil img {
-  width: 80%; /* Ajuste conforme necessário para o tamanho desejado */
+  width: 60%; /* Ajuste conforme necessário para o tamanho desejado */
   height: auto;
   object-fit: cover;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .quem-sou-eu {
@@ -100,7 +100,7 @@ body {
     object-fit: cover;
   }
   .img-perfil img {
-    width: 60%;
+    width: 50%;
     height: auto;
     object-fit: cover;
     border-radius: 50%; /* Incluído aqui também */
