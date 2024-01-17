@@ -99,6 +99,11 @@ body {
   border-radius: 10%;
   border: 2px solid #00c05c; /* Altera a cor da borda para #00c05c */
   box-shadow: 0 4px 8px rgba(0, 192, 92, 0.3); /* Aumenta a intensidade da sombra e altera a cor para #00c05c */
+  transition: all 0.3s ease; /* Adiciona um efeito de transição de 0.3 segundos */
+}
+
+.produto:hover img {
+  transform: scale(1.1); /* Adiciona um efeito de escala ao passar o mouse */
 }
 
 .produto p {
